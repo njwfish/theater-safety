@@ -1,0 +1,1 @@
+[people_test, cells_test, en_test] = mc(100000, 1.5, people, r, room, 0.0025, 0.04);

@@ -1,0 +1,1 @@
+unset surface; set cntrparam levels 50; set contour; set table ""fleeing from terror"_contourtmp0.table"; splot ""fleeing from terror"_contourtmp0.dat";

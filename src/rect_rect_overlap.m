@@ -1,0 +1,9 @@
+function overlap = rect_rect_overlap(rect1, rect2)
+%either takes a list of rects and a single rect or two lists of rects of
+%the same length and returns a vector of length rect1 which indicates if
+%there is overlap
+overlap = ~((rect1(:,1) > rect2(:,2) & rect1(:,2) > rect2(:,2)) | ...
+            (rect1(:,1) < rect2(:,1) & rect1(:,2) < rect2(:,1)) | ...
+            (rect1(:,3) > rect2(:,4) & rect1(:,4) > rect2(:,4)) | ...
+            (rect1(:,3) < rect2(:,3) & rect1(:,4) < rect2(:,3)));
+end

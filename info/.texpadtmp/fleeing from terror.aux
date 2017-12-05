@@ -1,0 +1,67 @@
+\relax 
+\abx@aux@sortscheme{ynt}
+\abx@aux@cite{chalabi_2017}
+\abx@aux@cite{khazan_2017}
+\@writefile{toc}{\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax }
+\@writefile{lof}{\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax }
+\@writefile{lot}{\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax }
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {section}{\numberline {2}Modeling Crowd Dynamics}{2}}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}The Metropolis Method}{2}}
+\abx@aux@cite{frenkel_2001}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Extending to the Human Case}{3}}
+\@writefile{loa}{\defcounter {refsection}{0}\relax }\@writefile{loa}{\contentsline {algorithm}{\numberline {1}{\ignorespaces This simple set of algorithms gives a high level appreciation for how simple the Metropolis algorithm can be. All that happens is $X$, the initial position of the particles, is moved $n$ times, each particle in $X$ given a random displacement according to a normal distribution with $\mu =0$ and $\sigma =\sigma _x$. A move is accepted if the particles do not overlap, otherwise it is rejected.}}{4}}
+\newlabel{metropilis}{{1}{4}}
+\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces This shows the electric field created between two point charges. This will form the core of the model used to simulate the crowd dynamics problem at the heart of this paper.}}{5}}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}Extending to Multiple Exits}{6}}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {2.4}Summary}{6}}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {section}{\numberline {3}Runtime Optimization}{6}}
+\abx@aux@cite{allen_1989}
+\abx@aux@cite{wikipedia_2016}
+\@writefile{loa}{\defcounter {refsection}{0}\relax }\@writefile{loa}{\contentsline {algorithm}{\numberline {2}{\ignorespaces This iteration of the energy algorithm takes $X$, the current position of the people, $B$, the position of all barriers, $E$ the position of all exits, $t$, the position of the terror, and $l$ and $w$, the dimensions of the theater. The overlap functions are in reality specific to the shapes being compared and involve a bit of interesting geometry, but have been excluded here for succinctness.}}{7}}
+\newlabel{basic_energy}{{2}{7}}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Cell Lists}{7}}
+\newlabel{SC@1}{{3.1}{8}}
+\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces (a) This diagram is what molecular dynamics seeks to simulate; the interaction between the particle of interest and all other particles. (b) This shows what cell lists simulate, the interaction between the particle of interest, all particles in the same cell, and all particles in neighboring cells. \cite {wikipedia_2016}}}{8}}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Parallelization}{8}}
+\@writefile{loa}{\defcounter {refsection}{0}\relax }\@writefile{loa}{\contentsline {algorithm}{\numberline {3}{\ignorespaces This iteration of the energy function is identical to Algorithm 2, except using a cell lists to limit the number of interaction calculations that must be done at every step.}}{9}}
+\newlabel{celllist_energy}{{3}{9}}
+\@writefile{lot}{\defcounter {refsection}{0}\relax }\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces These are the average runtime calculated after 100 simulations using each algorithm.}}{10}}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Results of Code Optimization}{10}}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {section}{\numberline {4}Score Functions}{10}}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Minimum Simulations for Accurate Approximations}{10}}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.1.1}Determining Appropriate Distributions}{10}}
+\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Running the simulation 1000 times, and taking these variables, these histograms were generated.}}{11}}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.1.2}MLE for the Log-Normal Distribution}{11}}
+\abx@aux@cite{psutka_psutka_2015}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.1.3}Minimum Samples for Accurate Log-Normal MLE}{13}}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {paragraph}{\numberline {4.1.3.1}Expected Log-Likelihood}{13}}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {paragraph}{\numberline {4.1.3.2}Evaluating Likelihood Accuracy}{15}}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {paragraph}{\numberline {4.1.3.3}Minimum Samples for Accurate MLE}{15}}
+\@writefile{loa}{\defcounter {refsection}{0}\relax }\@writefile{loa}{\contentsline {algorithm}{\numberline {4}{\ignorespaces This algorithm takes a two large integers, $t$ and $k$, the number of iterations and the size of the test data vector respectively, and an accuracy $\beta $. It returns the minimum number of iterations required to achieve the given accuracy for each of the $t$ simulations.}}{16}}
+\newlabel{nsamples}{{4}{16}}
+\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces (Left) This is a histogram of $i_{\beta }^*$; the result of running Algorithm 4 with $t=100000, k=100000, \beta =0.99$. (Right) This is the histogram of 100,000 values drawn from the distribution fit to (Right), using $\mathaccentV {hat}05E{p}$.}}{17}}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Runtime Score}{18}}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Exit Score}{18}}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {section}{\numberline {5}Optimization}{18}}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Runtime}{19}}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.1.1}Setting the number of iterations}{19}}
+\abx@aux@cite{NeldMead65}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.1.2}Nelder-Mead}{20}}
+\@writefile{loa}{\defcounter {refsection}{0}\relax }\@writefile{loa}{\contentsline {algorithm}{\numberline {5}{\ignorespaces To minimize a function $f(x) \ni x \in \mathbb  {R}^n$ Nelder-Mead takes a vector of test points $X=\{X_1,x_2 \dots  X_{n+1}\}$, where $f(X)$ will return a vector of evaluations of $f$ for each point in x. This implementation is basically the same as that in the original paper.\cite {NeldMead65}}}{21}}
+\newlabel{neld-mead}{{5}{21}}
+\abx@aux@cite{lagarias_98}
+\abx@aux@cite{NIPS2012_4522}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Exit Position}{22}}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.2.1}Prior Distribution}{22}}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.2.2}Posterior Distribution}{23}}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.2.3}Acquisition Function}{23}}
+\abx@aux@cite{bull_2011}
+\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces This shows the simple theater, one with 8 rows each seating three people, with two exits at the back of the theater. It might represent a classroom, or a small lecture hall.}}{24}}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsubsection}{\numberline {5.2.4}Stop Criterion}{24}}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {section}{\numberline {6}Conclusion}{24}}
+\@writefile{lot}{\defcounter {refsection}{0}\relax }\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces These are the runtime scores with the initial and optimized values of $kT = 0.05$ and $\sigma _x=0.05$.}}{25}}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {6.1}Runtime Optimization}{25}}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {6.2}Exit Position Optimization}{25}}
+\@writefile{toc}{\defcounter {refsection}{0}\relax }\@writefile{toc}{\contentsline {subsection}{\numberline {6.3}Evaluation of Original Layout}{25}}
+\@writefile{lof}{\defcounter {refsection}{0}\relax }\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces This is the optimal value of the exit position, given that the terror is at the front center of the theater. It makes sense because it skews to the back, further from where the terror is, but is otherwise basically symmetrical, which it should be as the theater is symmetrical. It also moves the exits in line with the seating rows to alleviate the incredibly bad bunching issues caused by moving the exits to the back of the theater.}}{26}}

@@ -1,0 +1,253 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist{entry}{ynt}
+    \entry{NeldMead65}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=41925c1a9f4e14ad72e7e9b286725c56}{Nelder}{N\bibinitperiod}{John\bibnamedelima A.}{J\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=91a0b19e58e55cb7bd2312a47594f4bb}{Mead}{M\bibinitperiod}{Roger}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=41925c1a9f4e14ad72e7e9b286725c56}{Nelder}{N\bibinitperiod}{John\bibnamedelima A.}{J\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=91a0b19e58e55cb7bd2312a47594f4bb}{Mead}{M\bibinitperiod}{Roger}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{9341ff33e51f003ac0ce59527a05d276}
+      \strng{fullhash}{9341ff33e51f003ac0ce59527a05d276}
+      \field{labelalpha}{NM65}
+      \field{sortinit}{1}
+      \field{labeltitle}{A simplex method for function minimization}
+      \field{journaltitle}{Computer Journal}
+      \field{title}{A simplex method for function minimization}
+      \field{volume}{7}
+      \field{year}{1965}
+      \field{pages}{308\bibrangedash 313}
+    \endentry
+    \entry{allen_1989}{book}{}
+      \name{labelname}{2}{}{%
+        {{hash=35c75826915fa0996062ad97c90d0105}{Allen}{A\bibinitperiod}{M.\bibnamedelimi P.}{M\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
+        {{hash=56e7cfd02e79cb84108830827ed16a73}{Tildesley}{T\bibinitperiod}{D.\bibnamedelimi J.}{D\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=35c75826915fa0996062ad97c90d0105}{Allen}{A\bibinitperiod}{M.\bibnamedelimi P.}{M\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
+        {{hash=56e7cfd02e79cb84108830827ed16a73}{Tildesley}{T\bibinitperiod}{D.\bibnamedelimi J.}{D\bibinitperiod\bibinitdelim J\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {New York, NY, USA}%
+      }
+      \list{publisher}{1}{%
+        {Clarendon Press}%
+      }
+      \strng{namehash}{826cc41610c54c1ce272321356ecae0d}
+      \strng{fullhash}{826cc41610c54c1ce272321356ecae0d}
+      \field{labelalpha}{AT89}
+      \field{sortinit}{1}
+      \field{labeltitle}{Computer Simulation of Liquids}
+      \field{isbn}{0-19-855645-4}
+      \field{title}{Computer Simulation of Liquids}
+      \field{year}{1989}
+    \endentry
+    \entry{lagarias_98}{article}{}
+      \name{labelname}{4}{}{%
+        {{hash=fd7de15d77c30292e0ffe238e015d3b4}{Lagarias}{L\bibinitperiod}{Jeffrey\bibnamedelima C.}{J\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+        {{hash=dde35a95438eb02b3dc4473d127d287d}{Reeds}{R\bibinitperiod}{James\bibnamedelima A.}{J\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=5a1053a320de0f6a58d930429d28b38d}{Wright}{W\bibinitperiod}{Margaret\bibnamedelima H.}{M\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
+        {{hash=717706b032ae170dca7d7cc878be37a8}{Wright}{W\bibinitperiod}{Paul\bibnamedelima E.}{P\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{4}{}{%
+        {{hash=fd7de15d77c30292e0ffe238e015d3b4}{Lagarias}{L\bibinitperiod}{Jeffrey\bibnamedelima C.}{J\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+        {{hash=dde35a95438eb02b3dc4473d127d287d}{Reeds}{R\bibinitperiod}{James\bibnamedelima A.}{J\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=5a1053a320de0f6a58d930429d28b38d}{Wright}{W\bibinitperiod}{Margaret\bibnamedelima H.}{M\bibinitperiod\bibinitdelim H\bibinitperiod}{}{}{}{}}%
+        {{hash=717706b032ae170dca7d7cc878be37a8}{Wright}{W\bibinitperiod}{Paul\bibnamedelima E.}{P\bibinitperiod\bibinitdelim E\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{66849d3fffe68bddddbd959edc50b33c}
+      \strng{fullhash}{99855bbbc7343c8e8578144af9e0fb19}
+      \field{labelalpha}{Lag+98}
+      \field{sortinit}{1}
+      \field{labeltitle}{Convergence Properties of the Nelder-Mead Simplex Method in Low Dimensions}
+      \field{journaltitle}{SIAM Journal of Optimization}
+      \field{title}{Convergence Properties of the Nelder-Mead Simplex Method in Low Dimensions}
+      \field{volume}{9}
+      \field{year}{1998}
+      \field{pages}{112\bibrangedash 147}
+    \endentry
+    \entry{frenkel_2001}{book}{}
+      \name{labelname}{2}{}{%
+        {{hash=7191fa8dca47b12000be59cbab02be45}{Frenkel}{F\bibinitperiod}{Daan}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=cf1b6974a4d7bd013e533aea5fcda164}{Smit}{S\bibinitperiod}{Berend}{B\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=7191fa8dca47b12000be59cbab02be45}{Frenkel}{F\bibinitperiod}{Daan}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=cf1b6974a4d7bd013e533aea5fcda164}{Smit}{S\bibinitperiod}{Berend}{B\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Orlando, FL, USA}%
+      }
+      \list{publisher}{1}{%
+        {Academic Press, Inc.}%
+      }
+      \strng{namehash}{3bbfb81f9905414b41a8d83b8c6c6626}
+      \strng{fullhash}{3bbfb81f9905414b41a8d83b8c6c6626}
+      \field{labelalpha}{FS01}
+      \field{sortinit}{2}
+      \field{labeltitle}{Understanding Molecular Simulation}
+      \field{edition}{2nd}
+      \field{isbn}{0122673514}
+      \field{title}{Understanding Molecular Simulation}
+      \field{year}{2001}
+    \endentry
+    \entry{bull_2011}{article}{}
+      \name{labelname}{1}{}{%
+        {{hash=85e6cc86df205a04ffa0f4b37223004b}{Bull}{B\bibinitperiod}{Adam\bibnamedelima D.}{A\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=85e6cc86df205a04ffa0f4b37223004b}{Bull}{B\bibinitperiod}{Adam\bibnamedelima D.}{A\bibinitperiod\bibinitdelim D\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{85e6cc86df205a04ffa0f4b37223004b}
+      \strng{fullhash}{85e6cc86df205a04ffa0f4b37223004b}
+      \field{labelalpha}{Bul11}
+      \field{sortinit}{2}
+      \field{labeltitle}{Convergence rates of efficient global optimization algorithms}
+      \field{journaltitle}{Journal of Machine Learning Research}
+      \field{title}{Convergence rates of efficient global optimization algorithms}
+      \field{volume}{12}
+      \field{year}{2011}
+      \field{pages}{2879\bibrangedash 2904}
+    \endentry
+    \entry{NIPS2012_4522}{incollection}{}
+      \name{labelname}{3}{}{%
+        {{hash=b9d827c94405733235f3f953a0691fd5}{Snoek}{S\bibinitperiod}{Jasper}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=42a970b0a0f1ed24b23064370cc9392f}{Larochelle}{L\bibinitperiod}{Hugo}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=0d7f3607c0972d955d28f65d08139baa}{Adams}{A\bibinitperiod}{Ryan\bibnamedelima P}{R\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{3}{}{%
+        {{hash=b9d827c94405733235f3f953a0691fd5}{Snoek}{S\bibinitperiod}{Jasper}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=42a970b0a0f1ed24b23064370cc9392f}{Larochelle}{L\bibinitperiod}{Hugo}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=0d7f3607c0972d955d28f65d08139baa}{Adams}{A\bibinitperiod}{Ryan\bibnamedelima P}{R\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
+      }
+      \name{editor}{4}{}{%
+        {{hash=b4ac0d7da3c70152eb8651dd27648d63}{Pereira}{P\bibinitperiod}{F.}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=b70004bbac2b5517c4c32fc5cfe070be}{Burges}{B\bibinitperiod}{C.\bibnamedelimi J.\bibnamedelimi C.}{C\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+        {{hash=27b0ff756cf36911b4cd7d704bfca7a4}{Bottou}{B\bibinitperiod}{L.}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=2cffb24bf1e4e0056d694659663c471c}{Weinberger}{W\bibinitperiod}{K.\bibnamedelimi Q.}{K\bibinitperiod\bibinitdelim Q\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Curran Associates, Inc.}%
+      }
+      \strng{namehash}{237f7d781dd59a67215a0ec91d8c678a}
+      \strng{fullhash}{237f7d781dd59a67215a0ec91d8c678a}
+      \field{labelalpha}{SLA12}
+      \field{sortinit}{2}
+      \field{labeltitle}{Practical Bayesian Optimization of Machine Learning Algorithms}
+      \field{booktitle}{Advances in Neural Information Processing Systems 25}
+      \field{title}{Practical Bayesian Optimization of Machine Learning Algorithms}
+      \field{year}{2012}
+      \field{pages}{2951\bibrangedash 2959}
+      \verb{url}
+      \verb http://papers.nips.cc/paper/4522-practical-bayesian-optimization-of-machine-learning-algorithms.pdf
+      \endverb
+    \endentry
+    \entry{psutka_psutka_2015}{article}{}
+      \name{labelname}{2}{}{%
+        {{hash=5c12932f6a151cd4466307af8fff5aaa}{Psutka}{P\bibinitperiod}{Josef\bibnamedelima V.}{J\bibinitperiod\bibinitdelim V\bibinitperiod}{}{}{}{}}%
+        {{hash=55c9ea6803367150bc6ac3b702a4596f}{Psutka}{P\bibinitperiod}{Josef}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{2}{}{%
+        {{hash=5c12932f6a151cd4466307af8fff5aaa}{Psutka}{P\bibinitperiod}{Josef\bibnamedelima V.}{J\bibinitperiod\bibinitdelim V\bibinitperiod}{}{}{}{}}%
+        {{hash=55c9ea6803367150bc6ac3b702a4596f}{Psutka}{P\bibinitperiod}{Josef}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{86bc42c6ca93d990940db5643d3015dc}
+      \strng{fullhash}{86bc42c6ca93d990940db5643d3015dc}
+      \field{labelalpha}{PP15}
+      \field{sortinit}{2}
+      \field{labeltitle}{Sample Size for Maximum Likelihood Estimates of Gaussian Model}
+      \field{journaltitle}{Computer Analysis of Images and Patterns Lecture Notes in Computer Science}
+      \field{title}{Sample Size for Maximum Likelihood Estimates of Gaussian Model}
+      \field{year}{2015}
+      \field{pages}{462\bibrangedash 469}
+      \verb{doi}
+      \verb 10.1007/978-3-319-23117-4_40
+      \endverb
+    \endentry
+    \entry{wikipedia_2016}{misc}{}
+      \list{publisher}{1}{%
+        {Wikimedia Foundation}%
+      }
+      \field{labelalpha}{16}
+      \field{sortinit}{2}
+      \field{labeltitle}{Cell lists}
+      \field{journaltitle}{Wikipedia}
+      \field{month}{11}
+      \field{title}{Cell lists}
+      \field{year}{2016}
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/Cell_lists
+      \endverb
+    \endentry
+    \entry{chalabi_2017}{misc}{}
+      \name{labelname}{1}{}{%
+        {{hash=cd391561c365974c60d53cf602094d11}{Chalabi}{C\bibinitperiod}{Mona}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=cd391561c365974c60d53cf602094d11}{Chalabi}{C\bibinitperiod}{Mona}{M\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{2}{%
+        {Guardian News}%
+        {Media}%
+      }
+      \strng{namehash}{cd391561c365974c60d53cf602094d11}
+      \strng{fullhash}{cd391561c365974c60d53cf602094d11}
+      \field{labelalpha}{Cha17}
+      \field{sortinit}{2}
+      \field{labeltitle}{Not your imagination: mass shootings now happen more frequently in the US}
+      \field{journaltitle}{The Guardian}
+      \field{month}{11}
+      \field{title}{Not your imagination: mass shootings now happen more frequently in the US}
+      \field{year}{2017}
+      \verb{url}
+      \verb https://www.theguardian.com/us-news/datablog/2017/nov/06/not-your-imagination-mass-shootings-now-happen-more-frequently-in-the-us
+      \endverb
+    \endentry
+    \entry{khazan_2017}{misc}{}
+      \name{labelname}{1}{}{%
+        {{hash=5242a917948d04ac42a3951d6389fd98}{Khazan}{K\bibinitperiod}{Olga}{O\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{hash=5242a917948d04ac42a3951d6389fd98}{Khazan}{K\bibinitperiod}{Olga}{O\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Atlantic Media Company}%
+      }
+      \strng{namehash}{5242a917948d04ac42a3951d6389fd98}
+      \strng{fullhash}{5242a917948d04ac42a3951d6389fd98}
+      \field{labelalpha}{Kha17}
+      \field{sortinit}{2}
+      \field{labeltitle}{Why Better Mental-Health Care Won't Stop Mass Shootings}
+      \field{journaltitle}{The Atlantic}
+      \field{month}{10}
+      \field{title}{Why Better Mental-Health Care Won't Stop Mass Shootings}
+      \field{year}{2017}
+      \verb{url}
+      \verb https://www.theatlantic.com/health/archive/2017/10/why-better-mental-health-care-wont-stop-mass-shootings/541965/
+      \endverb
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+
